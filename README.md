@@ -12,6 +12,16 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
+
+
+Si message d'erreur :
+Installing collected packages: anyio, pandas, httpcore, httpx
+  WARNING: Failed to write executable - trying to use .deleteme logic
+ERROR: Could not install packages due to an OSError: [WinError 2] Le fichier spécifié est introuvable: 'C:\\Python311\\Scripts\\httpx.exe' -> 'C:\\Python311\\Scripts\\httpx.exe.deleteme'
+
+Lancer avant un
+pip install httpx
+
 ```
 ## Configuration
 Dans le fichier config.yml, renseigner les informations (api_key,...).
