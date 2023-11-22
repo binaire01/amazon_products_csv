@@ -22,6 +22,7 @@ ERROR: Could not install packages due to an OSError: [WinError 2] Le fichier sp√
 Lancer avant un
 pip install httpx
 
+pip install pyyaml
 ```
 ## Configuration
 Dans le fichier config.yml, renseigner les informations (api_key,...).
